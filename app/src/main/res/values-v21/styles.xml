@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="ForecastListStyle">
+        <item name="android:choiceMode">none</item>
+    </style>
+
+    <style name="SettingsTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorPrimary">@color/sunshine_blue</item>
+        <item name="colorPrimaryDark">@color/sunshine_dark_blue</item>
+    </style>
+</resources>
